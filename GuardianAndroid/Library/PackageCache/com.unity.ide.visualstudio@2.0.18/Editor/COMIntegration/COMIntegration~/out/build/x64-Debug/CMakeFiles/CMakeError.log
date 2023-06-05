@@ -1,0 +1,104 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jd5esn
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_37104 && [1/2] Building C object CMakeFiles\cmTC_37104.dir\CMakeCCompilerABI.c.obj
+FAILED: CMakeFiles/cmTC_37104.dir/CMakeCCompilerABI.c.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_37104.dir\CMakeCCompilerABI.c.obj /FdCMakeFiles\cmTC_37104.dir\ /FS -c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vpwsh2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_d56a6 && [1/2] Building CXX object CMakeFiles\cmTC_d56a6.dir\CMakeCXXCompilerABI.cpp.obj
+FAILED: CMakeFiles/cmTC_d56a6.dir/CMakeCXXCompilerABI.cpp.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_d56a6.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_d56a6.dir\ /FS -c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-fp7d2n
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_9d2c7 && [1/2] Building CXX object CMakeFiles\cmTC_9d2c7.dir\testCXXCompiler.cxx.obj
+FAILED: CMakeFiles/cmTC_9d2c7.dir/testCXXCompiler.cxx.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_9d2c7.dir\testCXXCompiler.cxx.obj /FdCMakeFiles\cmTC_9d2c7.dir\ /FS -c "D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-fp7d2n\testCXXCompiler.cxx"
+D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-fp7d2n\testCXXCompiler.cxx : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sq8tyh
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f61b0 && [1/2] Building CXX object CMakeFiles\cmTC_f61b0.dir\CMakeCXXCompilerABI.cpp.obj
+FAILED: CMakeFiles/cmTC_f61b0.dir/CMakeCXXCompilerABI.cpp.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_f61b0.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_f61b0.dir\ /FS -c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yfiau4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e399f && [1/2] Building CXX object CMakeFiles\cmTC_e399f.dir\testCXXCompiler.cxx.obj
+FAILED: CMakeFiles/cmTC_e399f.dir/testCXXCompiler.cxx.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_e399f.dir\testCXXCompiler.cxx.obj /FdCMakeFiles\cmTC_e399f.dir\ /FS -c "D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-yfiau4\testCXXCompiler.cxx"
+D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-yfiau4\testCXXCompiler.cxx : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xvwrzl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_79f5d && [1/2] Building CXX object CMakeFiles\cmTC_79f5d.dir\CMakeCXXCompilerABI.cpp.obj
+FAILED: CMakeFiles/cmTC_79f5d.dir/CMakeCXXCompilerABI.cpp.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_79f5d.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_79f5d.dir\ /FS -c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-vt4k8d
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0dad5 && [1/2] Building CXX object CMakeFiles\cmTC_0dad5.dir\testCXXCompiler.cxx.obj
+FAILED: CMakeFiles/cmTC_0dad5.dir/testCXXCompiler.cxx.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_0dad5.dir\testCXXCompiler.cxx.obj /FdCMakeFiles\cmTC_0dad5.dir\ /FS -c "D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-vt4k8d\testCXXCompiler.cxx"
+D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-vt4k8d\testCXXCompiler.cxx : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1t65yy
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0f17b && [1/2] Building CXX object CMakeFiles\cmTC_0f17b.dir\CMakeCXXCompilerABI.cpp.obj
+FAILED: CMakeFiles/cmTC_0f17b.dir/CMakeCXXCompilerABI.cpp.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_0f17b.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_0f17b.dir\ /FS -c "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C++ compiler works failed with the following output:
+Change Dir: D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Library/PackageCache/com.unity.ide.visualstudio@2.0.18/Editor/COMIntegration/COMIntegration~/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g5c26n
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f6c7e && [1/2] Building CXX object CMakeFiles\cmTC_f6c7e.dir\testCXXCompiler.cxx.obj
+FAILED: CMakeFiles/cmTC_f6c7e.dir/testCXXCompiler.cxx.obj 
+C:\PROGRA~1\MICROS~1\2022\ENTERP~1\VC\Tools\MSVC\1435~1.322\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_f6c7e.dir\testCXXCompiler.cxx.obj /FdCMakeFiles\cmTC_f6c7e.dir\ /FS -c "D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-g5c26n\testCXXCompiler.cxx"
+D:\Creation\GitHub Stuff\GuardianAndroid\GuardianAndroid\Library\PackageCache\com.unity.ide.visualstudio@2.0.18\Editor\COMIntegration\COMIntegration~\out\build\x64-Debug\CMakeFiles\CMakeScratch\TryCompile-g5c26n\testCXXCompiler.cxx : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+ninja: build stopped: subcommand failed.
+
+
+

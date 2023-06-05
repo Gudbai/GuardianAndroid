@@ -1,0 +1,8 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.18\\Editor\\COMIntegration\\COMIntegration~\\out\\build\\x64-Debug",
+      "Library\\PackageCache\\com.unity.ide.visualstudio@2.0.18\\Editor\\COMIntegration\\COMIntegration~\\out\\install\\x64-Debug"
+    ]
+  }
+}

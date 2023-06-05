@@ -1,0 +1,900 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1685720022401898, "dur": 12590529, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720022402582, "dur": 26131, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720022428716, "dur": 391868, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720022820586, "dur": 2970750, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720025791339, "dur": 9194310, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720034985652, "dur": 6774, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720035006527, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1685720025151133, "dur": 583148, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685720025153472, "dur": 120531, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685720025633659, "dur": 24747, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685720025658464, "dur": 75770, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685720025661420, "dur": 67856, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685720025761085, "dur": 2639, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1685720025757995, "dur": 5796, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720035006686, "dur": 263, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685720025932660, "dur":3916, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720025936596, "dur":2265, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685720025938955, "dur":87, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685720025939043, "dur":5459, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685720025945866, "dur":3771, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720025949638, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684457, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684487, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684507, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684511, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684530, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684533, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684549, "dur":74, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684623, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684636, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684640, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684650, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684654, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684662, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684666, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684677, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684679, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684689, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684723, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034684769, "dur":3715, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685720025943851, "dur":5807, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720025949662, "dur":23486, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720025973166, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685720025973183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720025977743, "dur":2320, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685720025980075, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685720025980114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720025980656, "dur":31415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685720026012075, "dur":72714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720026084798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720026084817, "dur":4307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720026089203, "dur":446299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720026535511, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720026535858, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720026538385, "dur":195996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1685720026734387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720026734919, "dur":7976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1685720026742986, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685720026743187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720026745002, "dur":3691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685720026748777, "dur":80831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720026829615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720026829635, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720026831697, "dur":75090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720026906796, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720026907415, "dur":13528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720026921054, "dur":292736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720027213797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720027213859, "dur":17032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720027230963, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685720027230973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720027230986, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685720027234163, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720027234179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720027234193, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720027235767, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685720027235778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720027235794, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685720027239079, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720027239090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720027239118, "dur":16449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720027255644, "dur":168137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685720027423789, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720027423804, "dur":148406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685720027572325, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685720027572535, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720027572554, "dur":572080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685720028144713, "dur":70086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028214808, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720028214829, "dur":27079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028242014, "dur":27507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028269567, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720028379718, "dur":41486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028421295, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685720028421518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720028422217, "dur":9747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685720028432089, "dur":86883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028518995, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720028519017, "dur":13644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028532761, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028532966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720028532984, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1685720028536448, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685720028536644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720028536662, "dur":150122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1685720028686865, "dur":673812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720029360683, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720029360694, "dur":781118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720030142199, "dur":521216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720030663424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720030663439, "dur":92524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720030755990, "dur":130295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720030886293, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720030886308, "dur":7706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720030894040, "dur":108790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720031002839, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720031002855, "dur":511348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720031514228, "dur":1552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720031515790, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720031515808, "dur":37994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720031553846, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720031554252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720031554262, "dur":3261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720031557556, "dur":361645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720031919208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720031919220, "dur":272695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720032191951, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720032192381, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720032192402, "dur":126099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720032318562, "dur":327646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720032646214, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720032646230, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720032647784, "dur":1584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720032649377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720032649392, "dur":238707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720032888125, "dur":488439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033376572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033376588, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033378713, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033378957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033378970, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033381110, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033381438, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033381453, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033382943, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033383095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033383106, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033384717, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033384993, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033385010, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033386544, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033386767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033386781, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033388632, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033388868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033388883, "dur":257831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033646740, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033647140, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033647155, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033649022, "dur":4406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033653468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033653481, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033658178, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033658873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033658888, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033660622, "dur":1679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033662306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033662317, "dur":12721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033675055, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033675440, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033675453, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685720033677522, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1685720033677548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033677591, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1685720033679410, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685720033679482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720033679492, "dur":438864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685720034118410, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1685720034118623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685720034118636, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1685720034121361, "dur":562955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720025946720, "dur":2946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720025949666, "dur":24426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720025974093, "dur":50981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720026025082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720026025128, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720026029538, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720026029753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720026030355, "dur":6543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720026036990, "dur":57700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720026094698, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720026094722, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720026096889, "dur":446320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720026543217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720026543281, "dur":7868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720026551256, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720026551451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720026551535, "dur":3129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720026554751, "dur":30629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720026585389, "dur":111, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720026585517, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720026588735, "dur":2248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685720026590992, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720026591012, "dur":571997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685720027163093, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1685720027163104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027164826, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1685720027166733, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720027166743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027167466, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720027168976, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027168991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027169026, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027170727, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027170737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027170751, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027172212, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027172224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027172243, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027174046, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685720027174060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027174078, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685720027175718, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720027175739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027176393, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720027178082, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027178093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027178131, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027179763, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027179779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027179803, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027181471, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027181481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027181496, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027182912, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685720027182922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027182936, "dur":208496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685720027391524, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027391722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027391821, "dur":120359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027512278, "dur":13305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027525592, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027525694, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027527897, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027528098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027528115, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720027531269, "dur":188623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027719900, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027719918, "dur":61874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720027781927, "dur":154065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720027936001, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720027948886, "dur":7502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720027956484, "dur":168901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685720028125394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028125406, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685720028128863, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720028129052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028130436, "dur":24955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685720028155472, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720028155675, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028155767, "dur":50949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1685720028206807, "dur":57804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720028264618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028264634, "dur":130343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720028395073, "dur":175499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720028570581, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028570607, "dur":30183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685720028600902, "dur":140764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720028741689, "dur":290, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028743179, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720028745295, "dur":172803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685720028918107, "dur":66, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028920717, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685720028923842, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720028923853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028923880, "dur":5495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720028929454, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685720028929464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028929475, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":2, "ts":1685720028931570, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayer.ico" }}
+,{ "pid":12345, "tid":2, "ts":1685720028931639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028931668, "dur":11485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayer.ico" }}
+,{ "pid":12345, "tid":2, "ts":1685720028943177, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/GuardianAndroid.vcxproj" }}
+,{ "pid":12345, "tid":2, "ts":1685720028943438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720028943451, "dur":65566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/GuardianAndroid.vcxproj" }}
+,{ "pid":12345, "tid":2, "ts":1685720029009095, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayerVersion.rc" }}
+,{ "pid":12345, "tid":2, "ts":1685720029009304, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029009318, "dur":21731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayerVersion.rc" }}
+,{ "pid":12345, "tid":2, "ts":1685720029031116, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayer.rc" }}
+,{ "pid":12345, "tid":2, "ts":1685720029031356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029031365, "dur":25319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayer.rc" }}
+,{ "pid":12345, "tid":2, "ts":1685720029056780, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayer.manifest" }}
+,{ "pid":12345, "tid":2, "ts":1685720029057012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029057024, "dur":27100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/WindowsPlayer.manifest" }}
+,{ "pid":12345, "tid":2, "ts":1685720029084201, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/UnityData.vcxitems" }}
+,{ "pid":12345, "tid":2, "ts":1685720029084372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029084382, "dur":48218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/UnityData.vcxitems" }}
+,{ "pid":12345, "tid":2, "ts":1685720029132685, "dur":16662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/UnityConfiguration.gen.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1685720029149354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029149365, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/UnityConfiguration.gen.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1685720029150861, "dur":62264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/resource.h" }}
+,{ "pid":12345, "tid":2, "ts":1685720029213135, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029213154, "dur":30058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/resource.h" }}
+,{ "pid":12345, "tid":2, "ts":1685720029243293, "dur":25663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/PrecompiledHeader.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1685720029268962, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029268974, "dur":326541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/PrecompiledHeader.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1685720029595618, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText D:/Creation/GitHub Stuff/GuardianAndroid/UnityCommon.props" }}
+,{ "pid":12345, "tid":2, "ts":1685720029595625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029595634, "dur":763, "ph":"X", "name": "WriteText",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/UnityCommon.props" }}
+,{ "pid":12345, "tid":2, "ts":1685720029596402, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685720029596695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720029597058, "dur":543340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1685720030140455, "dur":511373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720030651837, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720030651851, "dur":104020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720030755898, "dur":319120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720031075026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720031075041, "dur":436954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720031512017, "dur":209222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720031721247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720031721263, "dur":471342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032192627, "dur":174158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032366792, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720032366807, "dur":100669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032467513, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032467845, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720032467861, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032469488, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032469853, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720032469867, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032471319, "dur":85162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032556580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720032556596, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032558224, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032558396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720032558407, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032559793, "dur":406076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032965878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720032965893, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032968642, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032968903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720032968960, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720032970458, "dur":313908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720033284377, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720033284393, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720033286469, "dur":541700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720033828179, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720033828196, "dur":291236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685720034119455, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685720034119478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685720034119490, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1685720034120997, "dur":563249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720025946843, "dur":2833, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720025949676, "dur":24261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720025973938, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720025974138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720026024833, "dur":56603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720026081510, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685720026081777, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720026081805, "dur":457292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685720026539164, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720026539361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720026540714, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720026543926, "dur":229209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685720026773143, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720026773162, "dur":1271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685720026774517, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685720026774714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720026774732, "dur":555151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1685720027329961, "dur":112175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685720027442146, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720027473351, "dur":4112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685720027477558, "dur":4526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720027482096, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720027498984, "dur":254285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720027753363, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685720027753553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720027753568, "dur":3062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685720027756711, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685720027756915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720027756932, "dur":100982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685720027857991, "dur":252166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720028110166, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028110224, "dur":5815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720028116120, "dur":105243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685720028221376, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028221826, "dur":16101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685720028238004, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720028238240, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028435334, "dur":31471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1685720028466899, "dur":86119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685720028553026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028553044, "dur":54829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685720028609955, "dur":267698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720028877734, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028877912, "dur":41164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720028919160, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685720028919169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028919184, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685720028920860, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685720028920868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028920881, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1685720028922398, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720028922410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720028923515, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720028925035, "dur":450932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720029375974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720029375986, "dur":2942993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032319076, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032319404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720032319419, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032321863, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032322275, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720032322289, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032326812, "dur":303637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032630459, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720032630476, "dur":5983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032636489, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032636701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720032636716, "dur":1620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032638369, "dur":311314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032949691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720032949701, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720032953288, "dur":491215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033444512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033444528, "dur":204492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033649038, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033649206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033649217, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033650251, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033650713, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033650725, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033652612, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033652786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033652799, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033654745, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033655065, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033655085, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033658139, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033658310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033658322, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033660341, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033660489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033660498, "dur":11090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033671616, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033671953, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033671968, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033674358, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033674794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033674807, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033676151, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033676357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033676374, "dur":10133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685720033686524, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685720033686661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720033686669, "dur":431930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1685720034118631, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685720034118659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720034118668, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685720034120409, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685720034120550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685720034120560, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685720034122148, "dur":562087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720025946980, "dur":2720, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720025949701, "dur":23539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720025973241, "dur":957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685720025974203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720026024566, "dur":23000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685720026047660, "dur":70675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685720026118343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720026118362, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685720026120660, "dur":868188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720026988857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720026988874, "dur":35556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720027024521, "dur":386347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685720027410880, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720027410898, "dur":2722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685720027413709, "dur":156459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685720027570175, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720027570193, "dur":28186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685720027598459, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685720027598652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720027599187, "dur":7330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1685720027606591, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685720027607240, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720027607304, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685720027611157, "dur":13465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685720027624633, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720027624651, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685720027626625, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685720027626859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720027626876, "dur":621600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685720028248554, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685720028248788, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720028379749, "dur":39869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685720028419693, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685720028419886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720028419963, "dur":1167982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685720029588035, "dur":49733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/UnityPlayerStub/Exports.h" }}
+,{ "pid":12345, "tid":4, "ts":1685720029637777, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720029637790, "dur":504191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/UnityPlayerStub/Exports.h" }}
+,{ "pid":12345, "tid":4, "ts":1685720030142066, "dur":481724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720030623800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720030623815, "dur":122967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720030746807, "dur":540964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720031287781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720031287795, "dur":230865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720031518685, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720031518911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720031518923, "dur":34872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720031553848, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720031554145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720031554160, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720031557555, "dur":738285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720032295849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720032295866, "dur":24426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720032320357, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720032320625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720032320637, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720032324178, "dur":321929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720032646118, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720032646135, "dur":242468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720032888621, "dur":501871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033390501, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720033390517, "dur":263729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033654272, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033654551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720033654565, "dur":3380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033657968, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033658230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720033658242, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033660340, "dur":3025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033663373, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720033663388, "dur":11548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033674955, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033675177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720033675189, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033677079, "dur":33332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720033710419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685720034119258, "dur":2448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685720034121731, "dur":562405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720025947053, "dur":2660, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720025949714, "dur":23438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720025973166, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685720025973449, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720025981785, "dur":23463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685720026005342, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720026005607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026006000, "dur":31936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720026038056, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720026038306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026038350, "dur":22596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720026061035, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1685720026061287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026061304, "dur":607300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1685720026668692, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685720026669014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026669839, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1685720026673898, "dur":37507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1685720026711440, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026711622, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1685720026713235, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720026713488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026713557, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720026717025, "dur":21891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1685720026738923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026738941, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1685720026740209, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1685720026740381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720026740397, "dur":494233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1685720027234691, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1685720027234700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720027234712, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1685720027235941, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720027235954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720027236324, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720027239084, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720027239096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720027239109, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720027240554, "dur":1020506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720028261068, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720028261085, "dur":201694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720028462852, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720028463168, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720028463222, "dur":4261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1685720028467548, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1685720028467765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720028467871, "dur":794237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1685720029262200, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/UnityPlayerStub/UnityPlayerStub.vcxproj" }}
+,{ "pid":12345, "tid":5, "ts":1685720029262384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720029585994, "dur":554374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/UnityPlayerStub/UnityPlayerStub.vcxproj" }}
+,{ "pid":12345, "tid":5, "ts":1685720030140443, "dur":413454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720030553910, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720030553996, "dur":191110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720030745130, "dur":298196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720031043334, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720031043348, "dur":470455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720031513827, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720031514057, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720031514074, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720031517503, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720031517681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720031517693, "dur":36419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720031554147, "dur":792898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720032347064, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720032347096, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720032348726, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720032348976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720032348989, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720032350431, "dur":220408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720032571127, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720032571144, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720032573168, "dur":781914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720033355091, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720033355106, "dur":20397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720033375538, "dur":1306526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720034682072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685720034682087, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685720034684052, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1685720034684057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720025946878, "dur":2807, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720025949686, "dur":24109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720025973796, "dur":1568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685720025975374, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720025981455, "dur":1451096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685720027432611, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685720027432811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720027432828, "dur":1395097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685720028828007, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685720028828017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720028828031, "dur":52336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685720028880447, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685720028880457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720028881107, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685720028883354, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1685720028883367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720028883404, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1685720028884690, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685720028884699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720028884715, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1685720028886120, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685720028886130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720028886146, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1685720028889637, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685720028889647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720028889663, "dur":707573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1685720029597309, "dur":179038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720029776355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720030135310, "dur":4763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720030140104, "dur":458574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720030598858, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720030598873, "dur":146086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720030744987, "dur":128109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720030873105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720030873120, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720030876776, "dur":204463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720031081246, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720031081259, "dur":430819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720031512097, "dur":351552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720031863709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720031863725, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720031865201, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720031865414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720031865424, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720031867627, "dur":401034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032268669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720032268685, "dur":51601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032321301, "dur":306507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032627816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720032627830, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032629763, "dur":332358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032962129, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720032962144, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032963458, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032963708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720032963718, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720032965930, "dur":635215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033601152, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720033601166, "dur":48342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033649540, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033649955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720033649968, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033652379, "dur":1013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033653400, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720033653415, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033656273, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033656469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720033656483, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033659152, "dur":2960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033662122, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720033662142, "dur":12871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033675030, "dur":5406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033680444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720033680459, "dur":5918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685720033686406, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1685720033686436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720033686451, "dur":431548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1685720034118028, "dur":17631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1685720034135761, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685720034135776, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1685720034137459, "dur":546645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720025946910, "dur":2781, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720025949692, "dur":23912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720025973606, "dur":22324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720025995940, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720025996093, "dur":19486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720026015657, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685720026016112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720026016230, "dur":950054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685720026966402, "dur":138634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720027105044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720027105068, "dur":116029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720027221173, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685720027221187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720027221825, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685720027223078, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720027223092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720027223174, "dur":10975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720027234223, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685720027234232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720027234246, "dur":126301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685720027360634, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685720027360925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720027362584, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1685720027365942, "dur":139836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720027505785, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720027505802, "dur":100450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720027606331, "dur":298188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720027904529, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720027904971, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1685720027907881, "dur":1288552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720029196488, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720029196503, "dur":24926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720029221485, "dur":20694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/PrecompiledHeader.h" }}
+,{ "pid":12345, "tid":7, "ts":1685720029242186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720029242200, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/PrecompiledHeader.h" }}
+,{ "pid":12345, "tid":7, "ts":1685720029243933, "dur":23283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Main.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1685720029267223, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720029267235, "dur":328269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid/Main.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1685720029595860, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid.sln" }}
+,{ "pid":12345, "tid":7, "ts":1685720029595870, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720029595877, "dur":858, "ph":"X", "name": "WriteText",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/GuardianAndroid.sln" }}
+,{ "pid":12345, "tid":7, "ts":1685720029596738, "dur":90083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1685720029686829, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720030137274, "dur":4750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1685720030142092, "dur":527160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720030669262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720030743400, "dur":11092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720030754521, "dur":398430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720031152958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720031152971, "dur":361788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720031515295, "dur":4785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720031520088, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720031520126, "dur":34089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720031554231, "dur":818120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720032372357, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720032372371, "dur":97128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720032469519, "dur":107360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720032576887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720032576901, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720032579032, "dur":700183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720033279260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720033279276, "dur":6587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720033285887, "dur":567521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720033853416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685720033853431, "dur":269108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685720034122566, "dur":561568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720025947113, "dur":2608, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720025949721, "dur":23432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720025973166, "dur":104608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026077782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720026077854, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026081074, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026081300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720026081317, "dur":455387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026536789, "dur":210032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1685720026746829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720026746842, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Master/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1685720026750457, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685720026750691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720026750748, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685720026754409, "dur":39628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026794045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720026794066, "dur":22213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026817630, "dur":1055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026818695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720026818713, "dur":11572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1685720026830352, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1685720026830603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720026830668, "dur":157469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1685720026988238, "dur":1198778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720028187023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028187037, "dur":50881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x64/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720028238003, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1685720028238239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028238257, "dur":582500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1685720028820871, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1685720028820885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028822238, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1685720028823725, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685720028823737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028824358, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685720028826142, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720028826152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028826189, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720028827679, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685720028827691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028827708, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685720028830065, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1685720028830076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028830090, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1685720028832120, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685720028832130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028832711, "dur":1560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1685720028834354, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720028834365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028834403, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720028836470, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685720028836482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028836499, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1685720028837921, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720028837936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028837956, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685720028839450, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1685720028839462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720028839480, "dur":754084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1685720029593703, "dur":43387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/UnityPlayerStub/Exports.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1685720029637099, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720029637163, "dur":505545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/UnityPlayerStub/Exports.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1685720030142798, "dur":452411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720030595217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720030595231, "dur":156537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720030751794, "dur":512147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720031263948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720031263960, "dur":249327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720031513312, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720031513556, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720031513610, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720031517403, "dur":83753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720031601165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720031601180, "dur":241995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720031843204, "dur":423298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032266508, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720032266520, "dur":51130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032317713, "dur":328592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032646310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720032646320, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032649032, "dur":299420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032948470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720032949433, "dur":3032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032952491, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032952711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720032952722, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720032954308, "dur":129168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033083483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033083494, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033084576, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033084713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033084722, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033085672, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033086044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033086054, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033087288, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033087881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033087892, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033089456, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033089745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033089760, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033091246, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033091560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033091574, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033093034, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033093769, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033093784, "dur":168335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033262139, "dur":1050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033263197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033263211, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033265397, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033266194, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033266212, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033269671, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033269884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033269898, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033271401, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033271960, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033271975, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033273610, "dur":501402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720033775019, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685720033775034, "dur":345448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Creation/GitHub Stuff/GuardianAndroid/build/bin/GuardianAndroid_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685720034120501, "dur":563882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685720034692944, "dur":5497, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1685720035007016, "dur": 1546, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1685720035006502, "dur": 2105, "ph": "X", "name": "Write chrome-trace events", "args": {} },
